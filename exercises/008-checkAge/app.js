@@ -1,11 +1,12 @@
 function checkAge(name, age) {
   // your code here
-  if(name==='Adrian' && age<21)
+  if(age<21)
   {
-    return "¡Go home, "+({name})+"!";
+    return "¡Go home, "+ name +"!";
   }
+  else
   {
-    return "¡Welcome, "+({name})+"!";
+    return "¡Welcome "+ name +"!";
   }
 }
 var output = checkAge('Adrian', 22);
